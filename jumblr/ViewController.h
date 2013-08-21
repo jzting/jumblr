@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Tile.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <TileDelegate>
 
 @end

@@ -18,6 +18,7 @@
 		BEE3CD07166C73D200ECE9B2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE3CD06166C73D200ECE9B2 /* Default-568h@2x.png */; };
 		BEE3CD0A166C73D200ECE9B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE3CD09166C73D200ECE9B2 /* ViewController.m */; };
 		BEE3CD0D166C73D200ECE9B2 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEE3CD0B166C73D200ECE9B2 /* ViewController.xib */; };
+		BEE3CD17166C772300ECE9B2 /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE3CD16166C772300ECE9B2 /* Tile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		BEE3CD08166C73D200ECE9B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BEE3CD09166C73D200ECE9B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BEE3CD0C166C73D200ECE9B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		BEE3CD15166C772300ECE9B2 /* Tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
+		BEE3CD16166C772300ECE9B2 /* Tile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				BEE3CD09166C73D200ECE9B2 /* ViewController.m */,
 				BEE3CD0B166C73D200ECE9B2 /* ViewController.xib */,
 				BEE3CCF7166C73D200ECE9B2 /* Supporting Files */,
+				BEE3CD15166C772300ECE9B2 /* Tile.h */,
+				BEE3CD16166C772300ECE9B2 /* Tile.m */,
 			);
 			path = jumblr;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 				BEE3CCFD166C73D200ECE9B2 /* main.m in Sources */,
 				BEE3CD01166C73D200ECE9B2 /* AppDelegate.m in Sources */,
 				BEE3CD0A166C73D200ECE9B2 /* ViewController.m in Sources */,
+				BEE3CD17166C772300ECE9B2 /* Tile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +298,7 @@
 				BEE3CD12166C73D200ECE9B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
